@@ -1,19 +1,23 @@
-var express = require('express');
+import express from 'express'
+import {getAllData, initiDB} from './db.js'
+
 var app = express();
 
-var cors = require('cors');
-var bodyParser = require('body-parser');
-app.use(bodyParser.json({limit: '50mb'}));
-app.use(bodyParser.urlencoded({limit: '50mb', extended: true, parameterLimit: 1000000}));
-app.use(cors());
+// var cors = require('cors');
+// var bodyParser = require('body-parser');
+// app.use(bodyParser.json({limit: '50mb'}));
+// app.use(bodyParser.urlencoded({limit: '50mb', extended: true, parameterLimit: 1000000}));
+// app.use(cors());
 app.use(express.json());
 app.set('view engine', 'html');
 
-const db = require('./db');
+// const db = require('./db');
 
 
-app.get("/", async function(req, res) {
-    const tableData = await db.getAllData();
+app.get("/", async (req, res)  => {
+    await initiDB();
+
+    const tableData = await getAllData();
     
     res.send({
       "status": "success",
