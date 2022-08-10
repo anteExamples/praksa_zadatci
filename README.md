@@ -1,2 +1,2 @@
 # praksa_zadatci
-Zadatak sa praksu s pod zadatcima
+Zadatak za praksu s pod zadatcima
