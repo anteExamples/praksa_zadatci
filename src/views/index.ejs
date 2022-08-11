@@ -1,0 +1,27 @@
+<table border=0>
+
+	<tr style='text-align:left;'>
+		<th>ID</th>
+		<th>Name</th>
+		<th>Action</th>
+	</tr>
+
+	<% if (tableData) { %>
+	<% tableData.forEach(function(product){ %>
+		<tr>
+			<td><%= product.id %></td>
+			<td><%= product.name %></td>
+			<td>
+				<div style="float:left">
+					<a href='<%= product.productImageUrl %>'>Edit</a> &nbsp;							
+					<form method="post" action="<%= product.productImageUrl %>" style="float:right">
+						<input type="submit" name="delete" value='GO' onClick="return confirm('Are you sure you want to visit index?')" />
+						<input type="hidden" name="_method" value="GO" />
+					</form>
+				</div>
+			</td>
+		</tr>
+	<% }) %>
+	<% } %>
+
+</table>

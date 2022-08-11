@@ -44,7 +44,6 @@ export const initiDB = (async () => {
     const tableExists = await db.get("SELECT * FROM sqlite_master WHERE name='Products' and type='table'")
 
     if(!tableExists) {
-        console.log('1')     
         await db.run(`CREATE TABLE Products (id TEXT, 
                                             name TEXT,
                                             productImageUrl TEXT,

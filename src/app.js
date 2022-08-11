@@ -1,7 +1,12 @@
 import express from 'express'
-import {getAllData, initiDB} from './db.js'
+import * as path from 'path'
+import { fileURLToPath } from 'url';
+import {fetchProducts} from './controllers/products.controller.js'
 
 var app = express();
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
 
 // var cors = require('cors');
 // var bodyParser = require('body-parser');
@@ -9,23 +14,11 @@ var app = express();
 // app.use(bodyParser.urlencoded({limit: '50mb', extended: true, parameterLimit: 1000000}));
 // app.use(cors());
 app.use(express.json());
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
-// const db = require('./db');
 
-
-app.get("/", async (req, res)  => {
-    await initiDB();
-
-    const tableData = await getAllData();
-    
-    res.send({
-      "status": "success",
-      "tableData": tableData
-    });
-
-    // res.sendFile('index.html', { root: './views' })
-  });
+app.get("/", fetchProducts);
   
   
 const PORT = process.env.PORT || 3000;
