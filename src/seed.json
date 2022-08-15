@@ -2,160 +2,160 @@
     "Souvenirs": [
         {
             "id": "a9ecb848-0ca4-4725-9c80-4abeca8593d6",
-            "name": "test",
-            "barCode": "",
+            "name": "item",
+            "barCode": "aaa-111",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         }, 
         {
             "id": "7b4a1f72-6877-4d3e-9fdd-12e9a2eb2220",
-            "name": "test1",
-            "barCode": "",
+            "name": "item1",
+            "barCode": "aaa-222",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "ec2b3011-959f-4613-8484-6384e236981b",
-            "name": "test2",
-            "barCode": "",
+            "name": "item2",
+            "barCode": "aaa-333",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "ea7048b2-b9cf-46e0-9c0c-9a8547c76a75",
-            "name": "test3",
-            "barCode": "",
+            "name": "item3",
+            "barCode": "aaa-444",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "423f1d38-37e3-4156-90dd-6ec500af4bde",
-            "name": "test4",
-            "barCode": "",
+            "name": "item4",
+            "barCode": "aaa-555",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "e350dea3-eb54-45f5-80b0-b0c7de9250c3",
-            "name": "test5",
-            "barCode": "",
+            "name": "item5",
+            "barCode": "aaa-666",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "ec79c63b-1985-4fb4-9fd1-f5997158f26e",
-            "name": "test5",
-            "barCode": "",
+            "name": "item5",
+            "barCode": "aaa-777",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "45eaeb34-2eb9-46f0-8716-fa911949332e",
-            "name": "test6",
-            "barCode": "",
+            "name": "item6",
+            "barCode": "aaa-888",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "1c97ef43-53c8-4943-86b1-86f5fc543b68",
-            "name": "test7",
-            "barCode": "",
+            "name": "item7",
+            "barCode": "aaa-999",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "5513588b-aa5c-4810-a738-a7ec0f4767b1",
-            "name": "test8",
-            "barCode": "",
+            "name": "item8",
+            "barCode": "aaa-bbb",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "32851624-3702-4b87-a273-956f7c3e8fb2",
-            "name": "test9",
-            "barCode": "",
+            "name": "item9",
+            "barCode": "aaa-ccc",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "418420cf-523c-4718-a881-f07f3186ce01",
-            "name": "test10",
-            "barCode": "",
+            "name": "item10",
+            "barCode": "aaa-ddd",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "7162c95c-4f86-4327-a574-1ebc2614c3ab",
-            "name": "test11",
-            "barCode": "",
+            "name": "item11",
+            "barCode": "aaa-eee",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "126aa3e7-f0b5-4d87-b496-57e069b9c158",
-            "name": "test12",
-            "barCode": "",
+            "name": "item12",
+            "barCode": "aaa-fff",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "62209d24-898a-4600-8cfe-9a2906980593",
-            "name": "test13",
-            "barCode": "",
+            "name": "item13",
+            "barCode": "aaa-kkk",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "d2b9740c-d8d4-4c0e-be3e-be584dbdd90b",
-            "name": "test14",
-            "barCode": "",
+            "name": "item14",
+            "barCode": "aaa-vvv",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "0c8a9001-5c84-47ae-9708-243cb7b59b63",
-            "name": "test15",
-            "barCode": "",
+            "name": "item15",
+            "barCode": "aaa-447",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "3f2f4b42-c5da-4465-8bc9-cc8aa4329bb5",
-            "name": "test16",
-            "barCode": "",
+            "name": "item16",
+            "barCode": "aaa-2m1",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "c338f7c5-9c44-49db-9d44-c9dd1145a92f",
-            "name": "test17",
-            "barCode": "",
+            "name": "item17",
+            "barCode": "aaa-333",
             "color": "",
             "quantity": "",
             "productImageUrl":""
         },
         {
             "id": "2c060de0-c6d5-41ba-bb0e-6e4d38221787",
-            "name": "test18",
-            "barCode": "",
+            "name": "item18",
+            "barCode": "aaa-444",
             "color": "",
             "quantity": "",
             "productImageUrl":""
