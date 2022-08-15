@@ -6,11 +6,10 @@ export const fetchProducts = async (req, res)  => {
 
         const tableData = await getAllData();
 
-        res.render('index', { tableData });
-        res.sendStatus(201);
+        res.render('productsList', { tableData });
     }
     catch(error) {
       console.log(error)
-      res.sendStatus(500)
+      res.send(500)
     }
 }

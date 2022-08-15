@@ -1,7 +1,7 @@
 import express from 'express'
 import * as path from 'path'
 import { fileURLToPath } from 'url';
-import {fetchProducts} from './controllers/products.controller.js'
+import router from './routes/products.routes.js';
 
 var app = express();
 const __filename = fileURLToPath(import.meta.url);
@@ -13,13 +13,15 @@ const __dirname = path.dirname(__filename);
 // app.use(bodyParser.json({limit: '50mb'}));
 // app.use(bodyParser.urlencoded({limit: '50mb', extended: true, parameterLimit: 1000000}));
 // app.use(cors());
+
 app.use(express.json());
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.use(express.static(__dirname + '/public'));
 
 
-app.get("/", fetchProducts);
-  
+// routes
+app.use(router); 
   
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
